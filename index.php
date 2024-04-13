@@ -43,6 +43,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         // Calcula o codigo ASCII da terceira letra seguinte atraves da FUNCAO NATIVA chr
+        //Aqui, o código ASCII do caractere atual ($atualCode) é deslocado por três posições para frente.
+        //Como exemplo, se o $atualCode for 65 (correspondente a 'A' em ASCII), então $nextCode será 65 + 3 = 68, que corresponde a 'D' em ASCII.
         $nextCode = $atualCode + 3;
         
           
@@ -54,7 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // .=
         // é um operador de concatenação em PHP, é usado para concatenar o valor à direita com a variável à esquerda e atribuir o resultado à variável à esquerda. 
     
-      
     }
 
     // Exibe o codigo transformado
