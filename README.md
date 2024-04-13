@@ -1,13 +1,14 @@
 <h1 align="center">Cifra de César </h1>
 
-Projeto Desenvolvido utilizando Conceitos de Crptografia como Cifragem por Substituição.
-Utilizando Cifragem de César para criptografar mensagens digitadas.
+:pushpin:  Projeto Desenvolvido utilizando Conceitos de Criptografia como Cifragem por Substituição.<br>
+:pencil: Utilizando Cifragem de César para criptografar mensagens digitadas.<br>
+:pencil: Utilizando valores ASCII para deslocar os caracteres.
 
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
 
-## 📎 Como Usar:
+## 📎 Como Utilizar essse arquivos:
 
 1. Faça download do Programa "XAMPP" e o instale em seu computador.
 2. Faça download do projeto e descompacte a pasta;
@@ -21,7 +22,7 @@ Utilizando Cifragem de César para criptografar mensagens digitadas.
 
   
 - Tela simples que recebe um texto do usuário e o converte na Cifra de César.
-- 💻Cifra de Cesar é uma Cifragem por substituição, onde você substitui cada caractere por 3 casas a frente.
+- Cifra de Cesar é uma Cifragem por substituição, onde você substitui cada caractere por 3 casas a frente.
 - Exemplo: a letra A = D e assim por diante.
 - Leva esse nome porque Julio César foi o 1° usuário conhecido dessa Cifra.
 - Na cifra de César, o deslocamento de caracteres é feito usando seus valores ASCII.
@@ -43,10 +44,11 @@ Utilizando Cifragem de César para criptografar mensagens digitadas.
 | ` $codigo .= $nextLetter; ` | O caractere **$nextLetter** obtido após o deslocamento  é concatenado à string **$codigo**|
 
 
-## 🌟Colaboradores
+## :pencil: Documentação e informação extra:
+- https://www.ascii-code.com/pt
+- https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar
+## :pushpin: Colaboradores
 
-
-
-<h2>🌸Jennyfer Alvim</h2> 
+<h2>Jennyfer Alvim</h2> 
 
 
