@@ -43,6 +43,14 @@
 | `$nextLetter = chr ($nextCode ); ` | **chr** Converte um valor ASCII de volta para o caractere correspondente. Exemplo: transformando 68 na letra D |
 | ` $codigo .= $nextLetter; ` | O caractere **$nextLetter** obtido após o deslocamento  é concatenado à string **$codigo**|
 
+<br>
+## :pencil: Correção de erros:
+
+| Descrição do erro | Solução Implementada                           |
+| :---------- | :---------------------------------- |
+| `Espaços digitados eram representados por Hashtag`  | // Verifica se o caractere atual é um espaço **if ($frase[$i] == ' ') {** // Se for um espaço, simplesmente o concatena ao código sem modificar **$codigo .= ' ';** |
+| `Erros de saída para letras do final do alfabeto, exemplo: letra X saindo como {`  | // Verifica se o deslocamento ultrapassa a letra 'z' **if  ($nextCode > ord('z')) {** // Se ultrapassar, ajusta para começar de novo em 'a' **$nextCode -= 26;** |
+
 
 ## :pencil: Documentação e informação extra:
 - https://www.ascii-code.com/pt
